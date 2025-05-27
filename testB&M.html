@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>5StepsFromSea - Апартаменты в 5 шагах от моря</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 0; background: #ffffff; color: #333; }
+  header {
+    background: url('https://raw.githubusercontent.com/MrIrakliy/apartment-landing/main/the%20background%20of%20the%20daytime%20sea%20and%20beach.png') center/cover no-repeat;
+    position: relative;
+    color: #fff;
+    padding: 80px 20px;
+  }
+  header::after {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.4);
+  }
+  header .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    z-index: 2;
+  }
+  header h1, header p {
+    position: relative; z-index: 1; text-align: center; margin: 0;
+  }
+  header h1 { font-size: 36px; margin-bottom: 10px; }
+  header p { font-size: 20px; }
+
+  .container { max-width: 800px; margin: 20px auto; padding: 20px; text-align: center; }
+  .intro img { width: 150px; border-radius: 50%; margin: 10px auto; display: block; }
+  .features { text-align: left; margin: 20px 0; }
+  .features li { margin-bottom: 10px; }
+  .reviews { background: #e0f7fa; padding: 15px; border-radius: 8px; margin-top: 20px; text-align: left; }
+  .cta { margin-top: 30px; }
+  .cta a {
+    background: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  .cta a:hover { background: #218838; }
+
+  @media (max-width: 600px) {
+    header { padding: 60px 10px; }
+    header .logo { width: 70px; top: 15px; left: 15px; }
+    header h1 { font-size: 24px; }
+    header p { font-size: 16px; }
+    .intro img { width: 120px; }
+    .container { padding: 15px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://raw.githubusercontent.com/MrIrakliy/apartment-landing/main/letter%20logo.png" alt="5StepsFromSea Logo" class="logo">
+  <h1>Апартаменты у самого моря — отдыхайте в 5 шагах от пляжа!</h1>
+  <p>Уютные апартаменты с видами на море и горы — бронируйте напрямую с хозяйкой и экономьте на комиссиях</p>
+</header>
+
+<div class="container">
+  <div class="intro">
+    <h2>Здравствуйте! Я Кристина, хозяйка апартаментов «5StepsFromSea» в Батуми.</h2>
+    <img src="https://raw.githubusercontent.com/MrIrakliy/apartment-landing/main/kristina.png" alt="Хозяйка апартаментов">
+    <p>Мои апартаменты — это идеальное место для отдыха и наслаждения природой, всего в 5 шагах от пляжа!</p>
+  </div>
+
+  <ul class="features">
+    <li>✅ Полностью оборудованные апартаменты с кухней, кондиционером и всеми удобствами</li>
+    <li>✅ Живописный балкон с видом на море и горы</li>
+    <li>✅ Бесконтактное заселение</li>
+    <li>✅ Удобное расположение: ТЦ, спортзал, бульвар с велодорожками</li>
+  </ul>
+
+  <div class="reviews">
+    <h3>Отзывы гостей:</h3>
+    <p>«Кристина — супер-хозяйка! Всё идеально, чисто, красиво и удобно.»</p>
+    <p>«Расположение шикарное — море в двух шагах, виды потрясающие!»</p>
+  </div>
+
+  <div class="cta">
+    <a href="https://wa.me/995593503503" target="_blank">Забронируйте сейчас!</a>
+  </div>
+</div>
+
+</body>
+</html>
